@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27924.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorization", "Authorization", "{E6AED8A0-4F1A-4BE8-9AC9-72416D86E274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", "{BAFE1F63-5316-464C-9559-EB7488833BB4}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "allowed-role-definition", "allowed-role-definition\allowed-role-definition.deployproj", "{3FC74C08-F33B-4558-BFD0-6EC679FF5988}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "audit-automation-account-variable-encryption", "audit-automation-account-variable-encryption\audit-automation-account-variable-encryption.deployproj", "{66D089D0-4EBA-4C63-90A7-357A51AC3692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC74C08-F33B-4558-BFD0-6EC679FF5988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC74C08-F33B-4558-BFD0-6EC679FF5988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC74C08-F33B-4558-BFD0-6EC679FF5988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC74C08-F33B-4558-BFD0-6EC679FF5988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D089D0-4EBA-4C63-90A7-357A51AC3692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D089D0-4EBA-4C63-90A7-357A51AC3692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D089D0-4EBA-4C63-90A7-357A51AC3692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D089D0-4EBA-4C63-90A7-357A51AC3692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FC74C08-F33B-4558-BFD0-6EC679FF5988} = {E6AED8A0-4F1A-4BE8-9AC9-72416D86E274}
+		{66D089D0-4EBA-4C63-90A7-357A51AC3692} = {BAFE1F63-5316-464C-9559-EB7488833BB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE705ED9-C83B-48D1-A4DA-259CABC9C881}
+	EndGlobalSection
+EndGlobal

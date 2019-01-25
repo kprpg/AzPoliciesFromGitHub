@@ -1,0 +1,10 @@
+{
+  "contentVersion": "1.0.0.0",
+  "isEncrypted": {
+    "type": "array",
+    "metadata": {
+      "description": "Is it Encrypted OR Not",
+      "displayName": "IsEncrypted"
+    }
+  }
+}
